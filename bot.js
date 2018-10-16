@@ -30,7 +30,10 @@ client.user.setGame(`صيآنة`,"http://twitch.tv/S-F")
 
 
 
-lient.on('ready', function(){    
+
+
+
+client.on('ready', function(){    
     var ms = 40000 ;    
     var setGame = [` #be Your Self : `,"Raped"];    
     var i = -1;    
@@ -46,8 +49,7 @@ j = 1;
         client.user.setGame(setGame[i],`http://twitch.tv/S-F`);    
 }, ms);    
     
-
-
+});
 
 
 
