@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-  console.log(`Logged in as ${client.user.tag}!`);
 const developers = ['335484868479811584'];
+
+  console.log(`Logged in as ${client.user.tag}!`);
 
 client.on('ready', function(){    
     if (message.content.startsWith('Rw')){
