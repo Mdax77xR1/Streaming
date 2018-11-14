@@ -6,7 +6,7 @@ const developers = ['335484868479811584'];
 
 client.on('ready', function(){    
     if (message.content.startsWith('Rw')){
-            var setGame = [` #be Your Self : `,"Raped"];    
+            var setGame = [` الاحترآم لآيصلح للجميع فالبعض لآيفتنع حتى يهآن`,"Raped"];    
         client.user.setGame(setGame[i],`http://twitch.tv/S-F`);    
           client.user.setStatus("Do Not Disturb")
 
