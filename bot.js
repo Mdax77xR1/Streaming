@@ -1,12 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const developers = ['320423357709549568 '];
+const developers = ['335484868479811584  '];
 
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setGame(`~`,'https://www.twitch.tv/MeeRcY')
-  client.user.setStatus("idle")
+  client.user.setStatus("Do Not Disturb")
 });
 
 client.on('message', message => {
@@ -15,17 +15,17 @@ client.on('message', message => {
 
 if (message.content.startsWith('Rwt')) {
 client.user.setActivity(argresult, {type:'WATCHING'});
-  client.user.setStatus("idle")
+  client.user.setStatus("Do Not Disturb"")
     message.channel.send(` ** ${argresult} \ ** `)
 } else 
 if (message.content.startsWith('Rls')) {
 client.user.setActivity(argresult , {type:'LISTENING'});
-  client.user.setStatus("idle")
+  client.user.setStatus("Do Not Disturb")
     message.channel.send(` ** ${argresult} \ ** `)
 } else 
 if (message.content.startsWith('Rst')) {
   client.user.setGame(argresult, "https://www.twitch.tv/MeeRcY");
-  client.user.setStatus("idle")
+  client.user.setStatus("Do Not Disturb")
    message.channel.send(` ** ${argresult} \ ** `)
 }
 });
