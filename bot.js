@@ -10,7 +10,6 @@ client.on('ready', function(){
         client.user.setGame(setGame[i],`http://twitch.tv/S-F`);    
           client.user.setStatus("Do Not Disturb")
 
-    var setGame = [` #be Your Self : `,"Raped"];    
 
 
 
