@@ -1,7 +1,7 @@
 
   const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '.'
+const prefix = '$'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -34,23 +34,7 @@ client.user.setGame(`صيآنة`,"http://twitch.tv/S-F")
 
 
 
-client.on('ready', function(){    
-    var ms = 40000 ;    
-    var setGame = [`** الآحترآم لآيصلح للجميع فآلبعض لآيقتنع حتىء يهآننءء **`,"xR1"];    
-    var i = -1;    
-    var j = 0;    
-    setInterval(function (){    
-        if( i == -1 ){    
-j = 1;    
-       }    
-        if( i == (setGame.length)-1 ){    
-            j = -1;    
-      }    
-       i = i+j;    
-        client.user.setGame(setGame[i],`http://twitch.tv/S-F`);    
-}, ms);    
-    
-});
+
 
 
 
