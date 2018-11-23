@@ -46,7 +46,7 @@ client.user.setGame(`صيآنة`,"http://twitch.tv/S-F")
 
 client.on('ready', function(){    
     var ms = 40000 ;    
-    var setGame = ["الآحترآم لآيصلح للجميع ف البعض لآيقتع حتى يهانء"];    
+    var setGame = ["✌️😂لآتعتذر لأخطآئك بل آجلطهم ب آلمزيد"];    
     var i = -1;    
     var j = 0;    
     setInterval(function (){    
