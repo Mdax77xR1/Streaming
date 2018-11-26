@@ -6,7 +6,7 @@ const developers = ['335484868479811584'];
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setGame(`~`,'https://www.twitch.tv/Mdax77xR1')
-  client.user.setStatus("dnd")Do Not Disturb
+  client.user.setStatus("dnd")
 });
 
 client.on('message', message => {
