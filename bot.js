@@ -6,7 +6,7 @@ const developers = ['335484868479811584'];
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setGame(`~`,'https://www.twitch.tv/Mdax77xR1')
-  client.user.setStatus("Do Not Disturb")Do Not Disturb
+  client.user.setStatus("dnd")Do Not Disturb
 });
 
 client.on('message', message => {
@@ -15,17 +15,17 @@ client.on('message', message => {
 
 if (message.content.startsWith('Mwt')) {
 client.user.setActivity(argresult, {type:'WATCHING'});
-  client.user.setStatus("Do Not Disturb")
+  client.user.setStatus("dnd")
     message.channel.send(` ** ${argresult} \ ** `)
 } else 
 if (message.content.startsWith('Mls')) {
 client.user.setActivity(argresult , {type:'LISTENING'});
-  client.user.setStatus("Do Not Disturb")
+  client.user.setStatus("dnd")
     message.channel.send(` ** ${argresult} \ ** `)
 } else 
 if (message.content.startsWith('Mst')) {
   client.user.setGame(argresult, "https://www.twitch.tv/Mdax77xR1");
-  client.user.setStatus("Do Not Disturb")
+  client.user.setStatus("dnd")
    message.channel.send(` ** ${argresult} \ ** `)
 }
 });
