@@ -46,7 +46,7 @@ client.on('message', message => {
 
 
 if (message.content.startsWith('Mpl')) {
-client.user.setActivity(argresult , {type:'Playing'});
+  client.user.setActivity(argresult, {type:'PLAYING'});
   client.user.setStatus("dnd")
     message.channel.send(` ** ${argresult} \ ** `)
 } else 
