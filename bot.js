@@ -42,4 +42,17 @@ client.on('message', message => {
   }
           
 });
+
+
+
+if (message.content.startsWith('Mpl')) {
+client.user.setActivity(argresult , {type:'Playing'});
+  client.user.setStatus("dnd")
+    message.channel.send(` ** ${argresult} \ ** `)
+} else 
+
+
+
+
+
 client.login(process.env.BOT_TOKEN);
